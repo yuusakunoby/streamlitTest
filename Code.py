@@ -1,7 +1,6 @@
-from tempfile import tempdir
 import streamlit as st
 import shutil
-import  PyPDF2
+import PyPDF2
 import base64
 import tkinter as tk
 import tkinter.filedialog
