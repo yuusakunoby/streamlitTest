@@ -4,7 +4,6 @@ import PyPDF2
 import base64
 import tkinter.filedialog
 
-
 def split(filename, outpath ,selected_item):
   reader = PyPDF2.PdfFileReader(filename)
   page_n = reader.getNumPages()
